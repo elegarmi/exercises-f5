@@ -1,5 +1,12 @@
-export function hideWords(word) {
-    word.style.color = "transparent";
+export function hideWords() {
+    let words = document.getElementsByClassName("words");
+    let arrWords = Array.from(words);
+    
+    arrWords.forEach((word, i) => {
+        setTimeout(() => {
+            word.style.color = "transparent";
+        }, i * 500);
+    })
 }
 
 export function showWords(word) {

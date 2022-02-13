@@ -11,7 +11,6 @@ function selectCells() {
       }); 
     });
 
-    let demo = document.getElementById("demo");
     let hideBtn = document.getElementById("hide-btn");
     let showBtn = document.getElementById("show-btn"); 
     let words = document.getElementsByClassName("words");
@@ -30,6 +29,12 @@ function selectCells() {
             setTimeout(() => {
                 showWords(word);
             }, i * 500);
+        })
+    })
+
+    arrWords.forEach(word => {
+        word.addEventListener("click", function () {
+            hideWords();
         })
     })
 
