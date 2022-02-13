@@ -1,0 +1,65 @@
+@import url(reset.css);
+
+header {
+    background: #000000;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+}
+
+figure {
+    max-height: 20rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    margin: 0;
+}
+
+figure img {
+    margin: -6rem 0;
+}
+
+header, main, footer {
+    width: 80%;
+    margin: 4rem auto;
+}
+
+.text-container {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    margin: 2.5rem 0 1.8rem;
+}
+
+#ingredients-list {
+    list-style-type: none;
+}
+
+aside {
+    padding: 0 3rem;
+    border: 1px solid;
+    border-radius: 1rem;
+    height: 10rem;
+}
+
+footer {
+    background: #000000;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
