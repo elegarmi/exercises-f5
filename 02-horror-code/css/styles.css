@@ -1,0 +1,12 @@
+body {
+    margin: 4rem auto;
+    width: 50%;
+}
+
+header img {
+    max-width: 10rem;
+}
+
+main {
+    margin: 4rem auto;
+}

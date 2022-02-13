@@ -1,0 +1,63 @@
+main {
+    margin: 0 auto;
+    width: 680px;
+}
+
+#addsong {
+    background: black;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#addsong input#in-new-song {
+    border: none;
+    font-size: inherit;
+    padding: 6px;
+    width: 400px;
+}
+
+#addsong .btn-circle {
+    background: #ffffff;
+    border: 1px solid #106dfe;
+    border-radius: 6px;
+    padding: 12px 14px;
+}
+
+#addsong .btn-circle i.fa.fa-plus {
+    color: #106dfe;
+}
+
+#songslist-container ul {
+    padding: 0;
+}
+
+#songslist-container ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa {
+    cursor: pointer;
+}
+
+.fa-edit {
+    background: #106dfe;
+    color: white;
+    margin: 5px;
+    padding: 12px 12px 12px 14px;
+    border-radius: 6px;
+}
+
+.fa-trash-o {
+    background: #dd3546;
+    color: white;
+    margin: 5px;
+    padding: 12px 14px;
+    border-radius: 6px;
+}

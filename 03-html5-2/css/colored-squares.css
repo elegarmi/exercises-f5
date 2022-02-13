@@ -1,0 +1,71 @@
+#colored-squares {
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+#colored-squares .box {
+    margin: 0.6rem auto;
+    width: 70%;
+}
+
+#colored-squares .row {
+    display: flex;
+}
+
+#colored-squares .cells {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+#colored-squares .box .xs {
+    width: 15%;
+}
+
+#colored-squares .box .md {
+    width: 16.6%;
+}
+
+#colored-squares .box .lg {
+    width: 20%;
+}
+
+#colored-squares .box .xl {
+    width: 50%;
+}
+
+#colored-squares .box .xxl {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+/* 
+#colored-squares .box > * {
+    background-color: rgba(96, 139, 168, .2);
+    width: 100px;
+}
+
+#colored-squares .box .narrow {
+    width: 95px;
+}
+
+#colored-squares .box .wide {
+    width: 110px;
+}
+
+#colored-squares .box .wide-x {
+    width: 300px;
+}
+
+#colored-squares .box .wide-xx {
+    align-items: start;
+    justify-content: center;
+    width: 600px;
+}
+
+.cell {
+    align-items: center;
+    display: flex;
+} */
