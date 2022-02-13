@@ -17,7 +17,7 @@ En la sección “Colores de fondo” al hacer clic sobre cada uno de los colore
 
 4. Con la ayuda del sketch proporcionado, crear una landing page de nuestra receta favorita. (04-recipe-landing-page) | [Material](https://www.figma.com/file/bSqTQZXqLmXeGM33KaGDE8/My-Favorite-Food?node-id=0%3A1)
 
-5. Utilizando Bootstrap o Tailwind CSS reproducir el sketch proporcionado - (05-bootstrap-tailwind) | [Material](https://www.figma.com/file/omX2O0qCLb3tL9Owf41qH4/Cities-in-the-world) | Disponible en [este repositorio](https://github.com/elegarmi/tailwind-exercise-f5)
+5. Utilizando Bootstrap o Tailwind CSS reproducir el sketch proporcionado - (05-bootstrap-tailwind) | [Material](https://www.figma.com/file/omX2O0qCLb3tL9Owf41qH4/Cities-in-the-world) | Disponible en [este repositorio](https://github.com/elegarmi/bootstrap-exercise-f5)
 
 6. CSS Grid. Reproducir con CSS Grid la imagen del documento proporcionado - (06-css-grid) | [Material](https://docs.google.com/document/d/1Ab69rFpBsbf_abbvNFjvqDevqqOvU_fB6LtSU7Jklfs/edit)
 
