@@ -1,9 +1,8 @@
 import {changeColor} from "./colored-squares.js";
-// import { hideWords } from "./colored-words.js";
 import {hideWords, showWords} from "./colored-words.js";
 
 function selectCells() {
-    let cells = document.getElementsByClassName("cell");
+    let cells = document.getElementsByClassName("cells");
     let arrCells = Array.from(cells);
 
     arrCells.forEach(cell => {
