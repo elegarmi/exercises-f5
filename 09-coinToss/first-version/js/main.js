@@ -1,7 +1,8 @@
 let img = document.getElementById("coin-img");
 
 img.addEventListener("click", () => {
-    let randomNum = Math.floor(Math.random() * 2)
+    let randomNum = Math.floor(Math.random() * 2);
+    
     if(randomNum == 1) {
         img.src="assets/coin-1.png"
     }   

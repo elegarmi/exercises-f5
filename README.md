@@ -27,7 +27,7 @@ Disponible en [este repositorio](https://github.com/elegarmi/tailwind-exercise-f
 6. CSS Grid. Reproducir con CSS Grid la imagen del documento proporcionado - (06-css-grid)
 [Material](https://docs.google.com/document/d/1Ab69rFpBsbf_abbvNFjvqDevqqOvU_fB6LtSU7Jklfs/edit)
 
-7. [Kata FizzBuzz-JS](https://github.com/FactoriaF5-Asturias/Kata-FizzBuzz-JS.git) - (07-kata-fizz-buzz-js)
+7. [Kata FizzBuzz-JS](https://github.com/FactoriaF5-Asturias/Kata-FizzBuzz-JS.git) - (07-kata-fizzbuzz-js)
 
 8. Ejercicios de javascript
 [Material](https://docs.google.com/document/d/1c9mnhcliYZlp37qQVDeUnLE3j2aduA5dAAxViZsO3t4/edit)
