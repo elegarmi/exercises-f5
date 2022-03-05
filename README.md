@@ -22,7 +22,7 @@ En la sección “Colores de fondo” al hacer clic sobre cada uno de los colore
 
 5. Utilizando Bootstrap o Tailwind CSS reproducir el sketch proporcionado - (05-bootstrap-tailwind)
 [Material](https://www.figma.com/file/omX2O0qCLb3tL9Owf41qH4/Cities-in-the-world)
-Disponible en [este repositorio](https://github.com/elegarmi/tailwind-exercise-f5)
+Disponible en [este repositorio](https://github.com/elegarmi/bootstrap-exercise-f5)
 
 6. CSS Grid. Reproducir con CSS Grid la imagen del documento proporcionado - (06-css-grid)
 [Material](https://docs.google.com/document/d/1Ab69rFpBsbf_abbvNFjvqDevqqOvU_fB6LtSU7Jklfs/edit)
@@ -36,7 +36,7 @@ Resueltos en [este repositorio](https://github.com/elegarmi/js-exercises-f5)
 9. Juego de cara o cruz - (09-coinToss)
 [Material](https://docs.google.com/document/d/1bmlJDZUpZWy8wrhS8LxwYBQnUFBitnXM_mRzxL-C2Ns/edit)
 
-10. Ejercicios básicos con javascript con jest (testing) - (10-testing)
+10. Ejercicios básicos con javascript con jest (testing) - (10-basic-js-testing)
 [Material](https://github.com/giacomoF5/Ex-Basic-Javascript.git)
 
 11. Crear una lista de ToDos - (11-toDos)
