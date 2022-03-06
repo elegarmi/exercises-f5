@@ -7,18 +7,12 @@ let list = [
     false, false, true, true
 ]
 
-let allSheeps = [];
-let sheeps;
+let numOfSheeps = 0;
 
-function findTrues(list) {
-    list.forEach(animal => {
-        if(animal )
-        allSheeps.push(animal);
-    });
-}
+list.forEach(animal => {
+    if(animal === true) {
+        numOfSheeps++;
+    }
+})
 
-function howmanySheeps() {
-    sheeps = allSheeps.length;
-}
-
-let printSheeps = document.getElementById("ovejas").innerHTML = sheeps;
+document.getElementById("ovejas").innerHTML = `There are ${numOfSheeps} sheep in total`;
