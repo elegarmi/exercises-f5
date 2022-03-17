@@ -13,8 +13,17 @@ function renderListSongs() {
     let songsList = document.getElementById("songslist");
 
     favouriteSongs.forEach(song => {
-    songsList.innerHTML += `<li id="${song.replace(/\s|["']/g, '')}-`+favouriteSongs.indexOf(song)+`"><span>${song}</span><div class="fa-icons"><i class="fa fa-edit" id="btn-Edit" onclick="editSong('${song.replace(/\s|["']/g, '')}-`+favouriteSongs.indexOf(song)+`')"></i><i class="fa fa-trash-o" id="btn-Trash" onclick="deleteSong('${song.replace(/\s|["']/g, '')}-`+favouriteSongs.indexOf(song)+`')"></i></div></li>`;
-    });
+        let songWithoutAccent = song.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        let songLowerWithoutSpaces = songWithoutAccent.toLowerCase().replace(/\s|["']/g, '');
+        let songId = songLowerWithoutSpaces +"-"+ favouriteSongs.indexOf(song);
+
+        let songEdit = `<i class="fa fa-edit" id="btn-Edit" onclick="editSong('${songId}')"></i>`;
+        let songDelete = `<i class="fa fa-trash-o" id="btn-Trash" onclick="deleteSong('${songId}')"></i>`;
+        
+        let songButtons = songEdit + songDelete;
+
+        songsList.innerHTML += `<li id="${songId}"><span>${song}</span><div class="fa-icons">${songButtons}</div></li>`;
+        });
     
 }
 
@@ -22,21 +31,19 @@ renderListSongs();
 
 btnAddSong.addEventListener('click', addSong);
 inputNewSong.addEventListener('keyup', function (event) {
-    let idElements = id.split("-");
-    let songPosition = idElements[1];
-    
+        
     if(event.key === 'Enter') {
-        console.log(inputNewSong.value);
-        if(inputNewSong.value = favouriteSongs.includes(favouriteSongs[songPosition])) {
-            favouriteSongs[songPosition] = inputNewSong.value;
-        }
-
         addSong();
     }
 });
 
 function addSong() {
     if(inputNewSong.value != '') {
+
+        if(inputNewSong.value = favouriteSongs.includes(favouriteSongs[songPosition])) {
+            console.log(inputNewSong.value + " is already on the list");
+        }
+
         favouriteSongs.push(inputNewSong.value);
         inputNewSong.value = '';
         renderListSongs();
@@ -45,6 +52,7 @@ function addSong() {
     if (inputNewSong.value = '') {
         inputNewSong.placeholder = 'Add a song!';
     }
+
 }
 
 function editSong(id) {
