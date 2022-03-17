@@ -42,7 +42,7 @@ function addSong() {
 
         let songName = inputNewSong.value;
 
-        if(inputNewSong.value = favouriteSongs.includes(inputNewSong.value)) {
+        if(favouriteSongs.includes(inputNewSong.value)) {
             alert(songName + " is already on the list");
         }
 
