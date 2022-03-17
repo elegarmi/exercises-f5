@@ -40,11 +40,16 @@ inputNewSong.addEventListener('keyup', function (event) {
 function addSong() {
     if(inputNewSong.value != '') {
 
-        if(inputNewSong.value = favouriteSongs.includes(favouriteSongs[songPosition])) {
-            console.log(inputNewSong.value + " is already on the list");
+        let songName = inputNewSong.value;
+
+        if(inputNewSong.value = favouriteSongs.includes(inputNewSong.value)) {
+            alert(songName + " is already on the list");
         }
 
-        favouriteSongs.push(inputNewSong.value);
+        else {
+            favouriteSongs.push(songName);
+        }
+
         inputNewSong.value = '';
         renderListSongs();
     }
